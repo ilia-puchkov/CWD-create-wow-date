@@ -1,0 +1,18 @@
+/*
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./Jura-Regular.woff') format('woff'), 
+    url('./Jura-Regular.woff2') format('woff2');
+}
+*/
+
+@font-face {
+  font-family: 'Macherie';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./macherie.otf') format('opentype'), 
+}

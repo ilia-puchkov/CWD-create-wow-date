@@ -1,0 +1,38 @@
+.header {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__navigation {
+  color: #fff;
+  list-style: none;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__navigation-element {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.header__navigation-link {
+
+}
+
+.header__button {
+  width: 190px;
+  height: 30px;
+  border: 2px solid #F02ED1;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
