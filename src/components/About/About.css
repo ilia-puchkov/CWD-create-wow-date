@@ -1,0 +1,39 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__title {
+  margin: 0;
+  font-size: 45px;
+  line-height: 52px;
+  color: #2EC2F0;
+  text-align: left;
+}
+
+.about__subtitle {
+  margin: 0;
+  font-size: 21px;
+  line-height: 24px;
+  color: #fff;
+  text-align: left;
+}
+
+.about__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  text-align: left;
+}
+
+.about__button {
+  width: 232px;
+  height: 46px;
+  margin: 0;
+  border: 1px solid #2EC2F0;
+  background: transparent;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}

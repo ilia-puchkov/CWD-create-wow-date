@@ -1,0 +1,54 @@
+.how {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.how__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.how__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.how__text-bright {
+  margin: 0;
+  font-size: 50px;
+  line-height: 58px;
+  color: #F02ED1;
+}
+
+.how__stripe {
+  margin: 0;
+  background-color: #F02ED1;
+  height: 5px;
+  border: none;
+}
+
+.stripe1 {
+  width: 20px;
+}
+
+.stripe2 {
+  width: 25px;
+}
+
+.stripe3 {
+  width: 30px;
+}
+
+.stripe4 {
+  width: 35px;
+}
+
+.stripe5 {
+  width: 40px;
+}

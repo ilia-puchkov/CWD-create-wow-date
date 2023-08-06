@@ -1,0 +1,36 @@
+.formats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formats__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.format {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.format__image {
+  height: 86px;
+}
+
+.format__title {
+  margin: 0;
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.format__text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
