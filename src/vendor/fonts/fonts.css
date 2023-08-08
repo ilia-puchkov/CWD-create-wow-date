@@ -1,8 +1,15 @@
 @font-face {
+  font-family: 'Macherie';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./macherie.woff') format('woff'); 
+}
+
+@font-face {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
+  /*font-display: auto;*/
   src: url('./Montserrat-Regular.woff') format('woff'), 
     url('./Montserrat-Regular.woff2') format('woff2');
 }

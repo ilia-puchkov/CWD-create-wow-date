@@ -7,15 +7,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Montserrat',  sans-serif;
+  font-family:  'Montserrat', 'Macherie', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #1B1B1B;
 }
-/*
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-    'Arial',
+
+*  {
+  outline: 1px solid yellow;
 }
-*/

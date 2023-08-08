@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 3;
 }
 /*
 .intro__logo {
@@ -21,23 +22,25 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 3;
 }
 
 .intro__header {
+  font-family:'Macherie';
   margin: 0;
   margin-top: 50px;
   font-size: 45px;
   line-height: 52.75px;
-  color: #2EC2F0;
-  text-align: left;
+  color: #2ec2f0;
+  text-align: left; 
 }
 
 .intro__text {
- font-size: 18px;
- font-weight: 400;
- line-height: 22px;
- color: #fff;
- text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #fff;
+  text-align: left;
 }
 
 .intro__button {
@@ -45,17 +48,24 @@
   width: 232px;
   height: 46px;
   padding: 8px 20px 8px;
-  border: 2px solid #F02ED1;
+  border: 2px solid #f02ed1;
   border-radius: 5px;
   background-color: transparent;
   color: #fff;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
+  box-shadow: 0px 0px 5px .5px #F02ED1, inset 0px 0px 4px .5px #F02ED1;
+  transition: .5s ease-in-out;
 }
 
 .intro__image {
   width: 410px;
   height: 380px;
   margin-right: 50px;
+  z-index: 3;
+}
+
+.intro__button:hover {
+  background-color: #F02ED1;
 }
