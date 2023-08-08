@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/CWD-create-wow-date/static/css/main.20729a97.css",
+    "main.js": "/CWD-create-wow-date/static/js/main.61efe212.js",
+    "static/js/787.6d2af0ba.chunk.js": "/CWD-create-wow-date/static/js/787.6d2af0ba.chunk.js",
+    "static/media/about-background.png": "/CWD-create-wow-date/static/media/about-background.4b06c00dac309fbdcf67.png",
+    "static/media/grain.png": "/CWD-create-wow-date/static/media/grain.9e49be973a80e8cfced1.png",
+    "static/media/header-background.png": "/CWD-create-wow-date/static/media/header-background.e660485507ddf1c3d5ff.png",
+    "static/media/test.jpg": "/CWD-create-wow-date/static/media/test.d3083a7abc3768184059.jpg",
+    "static/media/Montserrat-Regular.woff": "/CWD-create-wow-date/static/media/Montserrat-Regular.a04b5e24af93da353f0e.woff",
+    "static/media/Montserrat-Regular.woff2": "/CWD-create-wow-date/static/media/Montserrat-Regular.58a8d7ebc386843b62c5.woff2",
+    "static/media/cwd-logo.png": "/CWD-create-wow-date/static/media/cwd-logo.1a309c44c75b9452eeca.png",
+    "static/media/macherie.woff": "/CWD-create-wow-date/static/media/macherie.0b78614c1b01485f7810.woff",
+    "static/media/format-game.svg": "/CWD-create-wow-date/static/media/format-game.6155ac8f47e508a3eb6851257102facf.svg",
+    "static/media/format-date.svg": "/CWD-create-wow-date/static/media/format-date.06f396fd982b0a015443a8c99158b222.svg",
+    "static/media/format-HB.svg": "/CWD-create-wow-date/static/media/format-HB.3964e2aabd9791cd36a9cebdaf2e2c07.svg",
+    "static/media/format-party.svg": "/CWD-create-wow-date/static/media/format-party.296e63e6245ccf56de500315f1f02faf.svg",
+    "static/media/format-bachelor.svg": "/CWD-create-wow-date/static/media/format-bachelor.6462cd83ad5558611b0b4081bbf5b9df.svg",
+    "static/media/logo.svg": "/CWD-create-wow-date/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/format-proposal.svg": "/CWD-create-wow-date/static/media/format-proposal.96a3e5008e9bc1a444988e9567cf5718.svg",
+    "index.html": "/CWD-create-wow-date/index.html",
+    "main.20729a97.css.map": "/CWD-create-wow-date/static/css/main.20729a97.css.map",
+    "main.61efe212.js.map": "/CWD-create-wow-date/static/js/main.61efe212.js.map",
+    "787.6d2af0ba.chunk.js.map": "/CWD-create-wow-date/static/js/787.6d2af0ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20729a97.css",
+    "static/js/main.61efe212.js"
+  ]
+}
