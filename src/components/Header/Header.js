@@ -1,3 +1,5 @@
+import headerBackground from '../../images/header-background.png';
+
 function Header() {
   return (
     <header className='header'>
@@ -16,6 +18,7 @@ function Header() {
         </li>
       </ul>
       <button className='header__button'>Заказать звонок</button>
+      <img className="header__background" src={headerBackground} alt='header-background'/>
     </header>
   );
 }

@@ -1,4 +1,5 @@
 .how {
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -8,6 +9,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 15px;
 }
 
 .how__text {
@@ -22,8 +24,9 @@
 .how__text-bright {
   margin: 0;
   font-size: 50px;
-  line-height: 58px;
   color: #F02ED1;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .how__stripe {
@@ -31,24 +34,25 @@
   background-color: #F02ED1;
   height: 5px;
   border: none;
+  border-radius: 2px;
 }
 
 .stripe1 {
-  width: 20px;
+  width: 119px;
 }
 
 .stripe2 {
-  width: 25px;
+  width: 174px;
 }
 
 .stripe3 {
-  width: 30px;
+  width: 267px;
 }
 
 .stripe4 {
-  width: 35px;
+  width: 371px;
 }
 
 .stripe5 {
-  width: 40px;
+  width: 460px;
 }

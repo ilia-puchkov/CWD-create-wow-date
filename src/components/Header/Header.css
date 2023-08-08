@@ -5,6 +5,16 @@
   gap: 30px;
   align-items: center;
   justify-content: flex-end;
+  position: relative;
+  z-index: 2;
+}
+
+.header__background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
 }
 
 .header__navigation {
@@ -13,6 +23,7 @@
   gap: 30px;
   display: flex;
   flex-direction: row;
+  z-index: 2;
 }
 
 .header__navigation-element {
@@ -40,9 +51,14 @@
   font-weight: 400;
   line-height: 22px;
   box-shadow: 0px 0px 5px .5px #F02ED1, inset 0px 0px 4px .5px #F02ED1;
+  z-index: 2;
 }
 
 .header__button:hover {
   border: 2px solid #fff;
   box-shadow: 0px 0px 2px .5px #fff, inset 0px 0px 2px .5px #fff;
+}
+
+.header__navigation-link:hover {
+  color: #F02ED1;
 }

@@ -1,4 +1,5 @@
 import logo from '../../images/cwd-logo.png';
+import footerBackground from '../../images/header-background.png';
 
 function Footer() {
   return (
@@ -30,7 +31,7 @@ function Footer() {
           </ul>
         </div>
         <div className='footer__middle'>
-          <button className='about__button'>заполнить анкету</button>
+          <button className='footer__button'>заполнить анкету</button>
           <img className='footer__logo' src={logo} />
           <p className='footer__text'>CREATE WOW DATE, 2023</p>
         </div>
@@ -62,6 +63,7 @@ function Footer() {
           </ul>
         </div>
       </div>
+      <img className='footer__background' src={footerBackground} alt='footer-background'/>
     </footer>
   );
 }
