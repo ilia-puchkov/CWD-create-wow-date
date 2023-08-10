@@ -1,6 +1,6 @@
 import logo from '../../images/cwd-logo.png';
 
-function Intro() {
+function Intro({ onQuestionsClick }) {
   return (
     <section className='intro'>
       {/* <img className='intro__logo' src={logo} /> */}
@@ -11,7 +11,7 @@ function Intro() {
           <p className='intro__text'>
             Cоздаём незабываемые мероприятия по индивидуальному сценарию
           </p>
-          <button className='intro__button'>заполнить анкету</button>
+          <button className='intro__button' onClick={onQuestionsClick}>заполнить анкету</button>
         </div>
       </div>
     </section>

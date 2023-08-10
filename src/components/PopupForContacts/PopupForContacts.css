@@ -1,0 +1,23 @@
+.form__input-holder {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  color: #000;
+  transition: .3s ease-in;
+  background: transparent;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  visibility: hidden;
+}
+
+.form__input:focus {
+  border: 2px solid #F02ED1;
+}
+
+.form__input:focus ~ label {
+  visibility: visible;
+  top: -8px;
+  background-color: #fff;
+}
