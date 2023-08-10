@@ -9,6 +9,8 @@ import Gallery from '../Gallery/Gallery';
 import Footer from '../Footer/Footer';
 import PopupForQuestions from '../PopupForQuestions/PopupForQuestions';
 import PopupForContacts from '../PopupForContacts/PopupForContacts';
+// images
+import testSlides from '../../utils/galleryImages';
 
 function App() {
   // States
@@ -44,7 +46,7 @@ function App() {
       <Formats />
       <About />
       <How />
-      <Gallery />
+      <Gallery slides={testSlides} />
       <Footer />
 
       <PopupForQuestions

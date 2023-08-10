@@ -1,0 +1,51 @@
+.slider {
+  width: 1040px;
+  height: 542px;
+  border: 2px solid #fff;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider__element {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+}
+
+.slider__arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 70px;
+  color: #F02ED1;
+  z-index: 1;
+  cursor: pointer;
+  transform: translate(0, -50%);
+}
+
+.slider__arrow:hover {
+  color: #2EC2F0;
+}
+
+.slider__arrow-left {
+  left: 10px;
+}
+
+.slider__arrow-right {
+  right: 10px;
+}
+
+.slider__dots {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider__dot {
+  margin: 0 3px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}

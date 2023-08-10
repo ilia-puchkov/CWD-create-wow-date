@@ -4,6 +4,12 @@ import useFormValidation from '../../utils/formValidation';
 function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
   const { values, errors, handleChange, isValid, resetForm } = useFormValidation();
 
+  function handleClose() {
+    resetForm();
+    onClose();
+  }
+
+
   // Submit
   function handleSubmit(e) {
     e.preventDefault();
@@ -20,7 +26,7 @@ function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
       title='Заказать звонок'
       buttonText='Заказать'
       isOpen={isOpen}
-      onClose={onClose}
+      onClose={handleClose}
       onSubmit={handleSubmit}
       isDisabled={!isValid}
     >
@@ -53,7 +59,7 @@ function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
           onChange={handleChange}
           required
         />
-        <label className='form__input-holder'>Ваше телефон</label>
+        <label className='form__input-holder'>Ваш телефон</label>
         <span className='form__input-error phone-input-error form__input-error_visible'>
           {errors.phone}
         </span>
