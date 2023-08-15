@@ -1,6 +1,6 @@
 function How() {
   return (
-    <section className='how'>
+    <section className='how' id='how'>
       <div className='how__container'>
         <hr className='how__stripe stripe1'></hr>
         <span className='how__text-bright'>1</span>

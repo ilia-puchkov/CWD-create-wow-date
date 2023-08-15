@@ -9,22 +9,22 @@ function Footer() {
         <div className='footer__navigation'>
           <ul className='footer__navigation-list'>
             <li className='footer__navigation-link'>
-              <a className='footer__navigation-link' href='#'>
+              <a className='footer__navigation-link' href='#formats'>
                 ФОРМАТЫ
               </a>
             </li>
             <li className='footer__navigation-link'>
-              <a className='footer__navigation-link' href='#'>
+              <a className='footer__navigation-link' href='#about'>
                 О НАС
               </a>
             </li>
             <li className='footer__navigation-link'>
-              <a className='footer__navigation-link' href='#'>
+              <a className='footer__navigation-link' href='#how'>
                 КАК ЭТО РАБОТАЕТ?
               </a>
             </li>
             <li className='footer__navigation-link'>
-              <a className='footer__navigation-link' href='#'>
+              <a className='footer__navigation-link' href='#gallery'>
                 ГАЛЕРЕЯ
               </a>
             </li>
