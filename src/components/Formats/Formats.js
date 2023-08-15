@@ -1,9 +1,9 @@
-import birthdayImage from '../../images/format-HB.svg';
-import date from '../../images/format-date.svg';
-import proposal from '../../images/format-proposal.svg';
-import party from '../../images/format-party.svg';
-import bachelor from '../../images/format-bachelor.svg';
-import game from '../../images/format-game.svg';
+import birthdayImage from '../../images/format-HB.png';
+import date from '../../images/format-date.png';
+import proposal from '../../images/format-proposal.png';
+import party from '../../images/format-party.png';
+import bachelor from '../../images/format-bachelor.png';
+import game from '../../images/format-game.png';
 
 function Formats() {
   return (

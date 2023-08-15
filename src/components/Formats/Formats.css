@@ -23,7 +23,10 @@
 }
 
 .format__image {
+  margin: 0 auto;
   height: 90px;
+  width: 100px;
+  object-fit: contain;
 }
 
 .format__title {
