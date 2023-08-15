@@ -1,7 +1,7 @@
 .form__input-holder {
   position: absolute;
-  top: 0px;
-  left: 12px;
+  top: 10px;
+  left: 10px;
   color: #000;
   transition: .3s ease-in;
   background: transparent;
@@ -9,12 +9,10 @@
   font-size: 14px;
   line-height: 17px;
   color: #000;
-  visibility: hidden;
+  text-align: left;
 }
 
-
-.form__input:focus ~ label {
-  visibility: visible;
-  top: -8px;
-  background-color: #fff;
+.form__input:focus ~ label,
+.form__input:valid ~ label {
+  top: -19px;
 }

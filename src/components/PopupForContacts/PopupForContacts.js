@@ -37,7 +37,6 @@ function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
           id='name-input'
           name='name'
           minLength='2'
-          placeholder='Ваше имя'
           maxLength='30'
           value={values.name || ''}
           onChange={handleChange}
@@ -54,7 +53,6 @@ function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
           type='tel'
           id='phone-input'
           name='phone'
-          placeholder='Ваш телефон'
           value={values.phone || ''}
           onChange={handleChange}
           required

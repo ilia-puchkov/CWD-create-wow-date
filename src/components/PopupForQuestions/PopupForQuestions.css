@@ -15,6 +15,7 @@
   flex-direction: column;
   min-height: 65px;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .form__input-error {
@@ -27,6 +28,7 @@
   font-size: 12px;
   line-height: 15px;
   color: #F00;
+  text-align: left;
 }
 
 .form__input_type_error {
