@@ -9,6 +9,13 @@ import Gallery from '../Gallery/Gallery';
 import Footer from '../Footer/Footer';
 import PopupForQuestions from '../PopupForQuestions/PopupForQuestions';
 import PopupForContacts from '../PopupForContacts/PopupForContacts';
+import emailjs from 'emailjs-com';
+import {
+  contactService,
+  contactTemplate,
+  publicKey,
+} from '../../utils/mailUtils';
+
 // images
 import testSlides from '../../utils/galleryImages';
 
@@ -36,6 +43,13 @@ function App() {
 
   // Обработка ответа
   function handleAnswersSubmit(answers) {
+    emailjs
+      .send(contactService, contactTemplate, answers, publicKey)
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => console.log(err));
+
     console.log(answers);
   }
 
