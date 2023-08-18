@@ -23,6 +23,7 @@
   flex-direction: column;
   justify-content: center;
   z-index: 3;
+  margin-right: 50px;
 }
 
 .intro__header {
@@ -62,7 +63,6 @@
 .intro__image {
   width: 410px;
   height: 380px;
-  margin-right: 50px;
   z-index: 3;
 }
 

@@ -26,6 +26,9 @@
   width: 550px;
   height: 650px;
   box-shadow: inset -10px -10px 100px 10px #1b1b1b;
+  filter: blur(1px);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .about__info {

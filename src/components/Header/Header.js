@@ -1,4 +1,5 @@
 import headerBackground from '../../images/header-background.png';
+import headerBackgroundNoise from '../../images/header-background-noise.png';
 
 function Header({onContactsClick}) {
   return (
@@ -18,7 +19,12 @@ function Header({onContactsClick}) {
         </li>
       </ul>
       <button className='header__button' onClick={onContactsClick} >заказать звонок</button>
-      <img className="header__background" src={headerBackground} alt='header-background'/>
+      <div className="header__background">
+<img className="header__background-main" src={headerBackground} alt='header-background'/>
+<img className="header__background-noise" src={headerBackgroundNoise} alt='header-background'/>
+
+      </div>
+      
     </header>
   );
 }
