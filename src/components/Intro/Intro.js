@@ -1,9 +1,10 @@
 import logo from '../../images/cwd-logo.png';
+import calendarImage from '../../images/Vector 14.png';
 
 function Intro({ onQuestionsClick }) {
   return (
     <section className='intro'>
-      {/* <img className='intro__logo' src={logo} /> */}
+      <img className='intro__logo' src={logo} />
       <div className='intro__block'>
         <div className='intro__block-info'>
           <h1 className='intro__header'>С НАМИ ЛЮБОЙ ДЕНЬ - ПРАЗДНИК!</h1>
@@ -12,7 +13,7 @@ function Intro({ onQuestionsClick }) {
           </p>
           <button className='intro__button' onClick={onQuestionsClick}>заполнить анкету</button>
         </div>
-        <img className='intro__image' src={logo} />
+        <img className='intro__image' src={calendarImage} />
       </div>
     </section>
   );
