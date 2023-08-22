@@ -1,0 +1,21 @@
+.popup__image-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.popup__image {
+  max-width: 75vw;
+  max-height: 75vh;
+}
+
+.popup__signature {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  align-self: flex-start;
+}

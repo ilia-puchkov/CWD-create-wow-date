@@ -9,6 +9,7 @@
 @import url(../PopupForQuestions/PopupForQuestions.css);
 @import url(../PopupForContacts/PopupForContacts.css);
 @import url(../ImageSlider/ImageSlider.css);
+@import url(../ImagePopup/ImagePopup.css);
 
 .page {
   max-width: 1200px;

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-function ImageSlider({ slides }) {
+function ImageSlider({ slides, onImageClick }) {
   // Gallery indexes
   const [currentIndex, setCurrentIndex] = useState(1);
   const [secondIndex, setSecondIndex] = useState(2);
@@ -41,6 +41,10 @@ function ImageSlider({ slides }) {
     setThirdIndex(newThirdIndex);
   }
 
+  function handleImageClick(e) {
+    onImageClick(e.target);
+  }
+
   return (
     <div className='slider'>
       <div className='slider__arrow slider__arrow-left' onClick={goToPrevious}>
@@ -50,18 +54,24 @@ function ImageSlider({ slides }) {
         &#8250;
       </div>
       <div className='slider__block'>
-        <div
+        <img
           className='slider__element slider1'
-          style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        ></div>
-        <div
+          src={slides[currentIndex].url}
+          alt={slides[currentIndex].title}
+          onClick={handleImageClick}
+        ></img>
+        <img
           className='slider__element slider2'
-          style={{ backgroundImage: `url(${slides[secondIndex].url})` }}
-        ></div>
-        <div
+          src={slides[secondIndex].url}
+          alt={slides[secondIndex].title}
+          onClick={handleImageClick}
+        ></img>
+        <img
           className='slider__element slider3'
-          style={{ backgroundImage: `url(${slides[thirdIndex].url})` }}
-        ></div>
+          src={slides[thirdIndex].url}
+          alt={slides[thirdIndex].title}
+          onClick={handleImageClick}
+        ></img>
       </div>
       <div className='slider__dots'>
         {slides.map((slide, slideIndex) => (

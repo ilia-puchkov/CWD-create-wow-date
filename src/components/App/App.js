@@ -18,12 +18,15 @@ import {
 
 // images
 import testSlides from '../../utils/galleryImages';
+import ImagePopup from '../ImagePopup/ImagePopup';
 
 function App() {
   // States
   // Popups
   const [isPopupForQuestionsOpen, setIsPopupForQuestionsOpen] = useState(false);
   const [isPopupForContactsOpen, setIsPopupForContactsOpen] = useState(false);
+  const [isImagePopupOpen, setIsImagePopupOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState({});
 
   // Functions
   // Open popup with questions
@@ -35,10 +38,16 @@ function App() {
     setIsPopupForContactsOpen(true);
   }
 
+  function handleImageClick(imageData) {
+    setSelectedImage(imageData);
+    setIsImagePopupOpen(true);
+  }
+
   // Close any popup
   function closeAllPopups() {
     setIsPopupForQuestionsOpen(false);
     setIsPopupForContactsOpen(false);
+    setIsImagePopupOpen(false);
   }
 
   // Обработка ответа
@@ -60,7 +69,7 @@ function App() {
       <Formats />
       <About />
       <How />
-      <Gallery slides={testSlides} />
+      <Gallery slides={testSlides} onImageClick={handleImageClick} />
       <Footer />
 
       <PopupForQuestions
@@ -73,6 +82,12 @@ function App() {
         isOpen={isPopupForContactsOpen}
         onClose={closeAllPopups}
         onAddAnswers={handleAnswersSubmit}
+      />
+
+      <ImagePopup
+        image={selectedImage}
+        isOpen={isImagePopupOpen}
+        onClose={closeAllPopups}
       />
     </div>
   );
