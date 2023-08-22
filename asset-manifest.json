@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/CWD-create-wow-date/static/css/main.7937b6c1.css",
-    "main.js": "/CWD-create-wow-date/static/js/main.72d00040.js",
+    "main.css": "/CWD-create-wow-date/static/css/main.f22a2242.css",
+    "main.js": "/CWD-create-wow-date/static/js/main.00b8ffde.js",
     "static/js/787.6d2af0ba.chunk.js": "/CWD-create-wow-date/static/js/787.6d2af0ba.chunk.js",
     "static/media/about-background.png": "/CWD-create-wow-date/static/media/about-background.4b06c00dac309fbdcf67.png",
     "static/media/format-date.png": "/CWD-create-wow-date/static/media/format-date.3e9e7405ca7638fdc9b6.png",
     "static/media/grain.png": "/CWD-create-wow-date/static/media/grain.9e49be973a80e8cfced1.png",
     "static/media/header-background.png": "/CWD-create-wow-date/static/media/header-background.e660485507ddf1c3d5ff.png",
+    "static/media/testImage2.png": "/CWD-create-wow-date/static/media/testImage2.d26888d1ff31a7842824.png",
     "static/media/test.jpg": "/CWD-create-wow-date/static/media/test.d3083a7abc3768184059.jpg",
     "static/media/testImage1.jpeg": "/CWD-create-wow-date/static/media/testImage1.ce7954c5082e27001991.jpeg",
+    "static/media/testImage.png": "/CWD-create-wow-date/static/media/testImage.da9e592556ca55557bd4.png",
     "static/media/testImage3.jpg": "/CWD-create-wow-date/static/media/testImage3.dbd0f44c7cbd2a10d6c0.jpg",
     "static/media/header-background-noise.png": "/CWD-create-wow-date/static/media/header-background-noise.3b086f2bbb89144c8c07.png",
     "static/media/Montserrat-Regular.woff": "/CWD-create-wow-date/static/media/Montserrat-Regular.a04b5e24af93da353f0e.woff",
+    "static/media/Vector 14.png": "/CWD-create-wow-date/static/media/Vector 14.bad3780cdb6fabcf1eba.png",
     "static/media/Montserrat-Regular.woff2": "/CWD-create-wow-date/static/media/Montserrat-Regular.58a8d7ebc386843b62c5.woff2",
     "static/media/cwd-logo.png": "/CWD-create-wow-date/static/media/cwd-logo.1a309c44c75b9452eeca.png",
     "static/media/macherie.woff": "/CWD-create-wow-date/static/media/macherie.0b78614c1b01485f7810.woff",
@@ -23,12 +26,12 @@
     "static/media/format-HB.png": "/CWD-create-wow-date/static/media/format-HB.705bd601eee421ead766.png",
     "index.html": "/CWD-create-wow-date/index.html",
     "static/media/Close-Icon.svg": "/CWD-create-wow-date/static/media/Close-Icon.039f1f5203f653b4bacd.svg",
-    "main.7937b6c1.css.map": "/CWD-create-wow-date/static/css/main.7937b6c1.css.map",
-    "main.72d00040.js.map": "/CWD-create-wow-date/static/js/main.72d00040.js.map",
+    "main.f22a2242.css.map": "/CWD-create-wow-date/static/css/main.f22a2242.css.map",
+    "main.00b8ffde.js.map": "/CWD-create-wow-date/static/js/main.00b8ffde.js.map",
     "787.6d2af0ba.chunk.js.map": "/CWD-create-wow-date/static/js/787.6d2af0ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7937b6c1.css",
-    "static/js/main.72d00040.js"
+    "static/css/main.f22a2242.css",
+    "static/js/main.00b8ffde.js"
   ]
 }
