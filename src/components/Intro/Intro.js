@@ -1,5 +1,5 @@
 import logo from '../../images/cwd-logo.png';
-import calendarImage from '../../images/Vector 14.png';
+import calendarImage from '../../images/calendar.png';
 
 function Intro({ onQuestionsClick }) {
   return (

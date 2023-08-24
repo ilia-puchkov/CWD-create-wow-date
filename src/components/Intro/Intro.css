@@ -11,9 +11,10 @@
 .intro__logo {
   position: absolute;
   top: -150px;
-  left: 120px;
+  left: 80px;
+  width: 242px;
+  height: 185px;
 }
-
 
 .intro__block {
   display: flex;
@@ -21,18 +22,19 @@
 }
 
 .intro__block-info {
-  max-width: 500px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 30px;
+  max-width: 570px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   z-index: 3;
-  margin-right: 50px;
 }
 
 .intro__header {
   font-family:'Macherie';
   margin: 0;
-  margin-top: 50px;
+  margin-top: 70px;
   font-size: 45px;
   line-height: 52.75px;
   color: #2ec2f0;
@@ -40,6 +42,9 @@
 }
 
 .intro__text {
+  margin: 0;
+  margin-top: 10px;
+  max-width: 372px;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -48,7 +53,7 @@
 }
 
 .intro__button {
-  margin-top: 35px;
+  margin-top: 45px;
   width: 232px;
   height: 46px;
   padding: 8px 20px 8px;
@@ -64,8 +69,8 @@
 }
 
 .intro__image {
-  width: 410px;
-  height: 380px;
+  width: 450px;
+  height: 430px;
   z-index: 3;
 }
 

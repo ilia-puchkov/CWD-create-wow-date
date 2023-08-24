@@ -6,16 +6,16 @@ function Header({onContactsClick}) {
     <header className='header'>
       <ul className='header__navigation'>
         <li className='header__navigation-element'>
-          <a className='header__navigation-link' href="#formats">Форматы</a>
+          <a className='header__navigation-link' href="#formats">форматы</a>
         </li>
         <li className='header__navigation-element'>
-          <a className='header__navigation-link' href="#about">О нас</a>
+          <a className='header__navigation-link' href="#about">о нас</a>
         </li>
         <li className='header__navigation-element'>
-          <a className='header__navigation-link' href="#gallery">Галерея</a>
+          <a className='header__navigation-link' href="#gallery">галерея</a>
         </li>
         <li className='header__navigation-element'>
-          <a className='header__navigation-link' href="#contacts">Контакты</a>
+          <a className='header__navigation-link' href="#contacts">контакты</a>
         </li>
       </ul>
       <button className='header__button' onClick={onContactsClick} >заказать звонок</button>
