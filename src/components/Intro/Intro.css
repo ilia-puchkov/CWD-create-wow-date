@@ -32,13 +32,13 @@
 }
 
 .intro__header {
-  font-family:'Macherie';
+  font-family: 'Macherie';
   margin: 0;
   margin-top: 70px;
   font-size: 45px;
   line-height: 52.75px;
   color: #2ec2f0;
-  text-align: left; 
+  text-align: left;
 }
 
 .intro__text {
@@ -64,8 +64,8 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
-  box-shadow: 0px 0px 5px .5px #F02ED1, inset 0px 0px 4px .5px #F02ED1;
-  transition: .5s ease-in-out;
+  box-shadow: 0px 0px 5px 0.5px #f02ed1, inset 0px 0px 4px 0.5px #f02ed1;
+  transition: 0.5s ease-in-out;
 }
 
 .intro__image {
@@ -75,5 +75,84 @@
 }
 
 .intro__button:hover {
-  background-color: #F02ED1;
+  background-color: #f02ed1;
+}
+
+@media screen and (max-width: 769px) {
+  .intro {
+    align-items: start;
+  }
+
+  .intro__image {
+    display: none;
+  }
+
+  .intro__block-info {
+    margin-left: 40px;
+    max-width: 479px;
+  }
+
+  .intro__header {
+    margin-top: 100px;
+    font-size: 40px;
+  }
+
+  .intro__text {
+    margin-top: 5px;
+  }
+
+  .intro__logo {
+    width: 193px;
+    height: 152px;
+    top: -210px;
+    left: 50px;
+  }
+
+  .intro__button {
+    margin-top: 70px;
+    margin-left: 5px;
+    height: 36px;
+    padding: 5px 20px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro__image {
+    display: none;
+  }
+
+  .intro {
+    margin-top: 85px;
+  }
+
+  .intro__logo {
+    width: 135px;
+    height: 104px;
+    top: -190px;
+    left: 20px;
+  }
+  .intro__header {
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .intro__block-info {
+    margin-top: 0;
+  }
+  .intro__text {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    align-self: center;
+  }
+  .intro__button {
+    align-self: center;
+    font-size: 16px;
+    width: 174px;
+    height: 25px;
+    padding: 5px 10px;
+    margin-top: 100px;
+    margin-left: 0;
+  }
 }

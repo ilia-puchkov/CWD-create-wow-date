@@ -79,3 +79,50 @@
 .header__navigation-link:hover {
   color: #F02ED1;
 }
+
+.header__menu {
+  display: none;
+  width: 40px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  z-index: 2;
+  background: none;
+  background-image: url(../../images/menu-icon.svg);
+  background-size: cover;
+  stroke: #F02ED1;
+}
+
+@media screen and (max-width: 769px) {
+  .header {
+    padding: 60px 45px;
+  }
+  .header__menu {
+    display: block;
+  }
+
+  .header__navigation {
+    display: none;
+  }
+
+  .header__background-noise {
+    top: 220px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    padding: 55px 15px;
+    gap: 30px;
+  }
+  .header__button {
+    width: 165px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .header__menu {
+    width: 27px;
+  height: 25px;
+  }
+}

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 function ImageSlider({ slides, onImageClick }) {
   // Gallery indexes
@@ -58,10 +58,10 @@ function ImageSlider({ slides, onImageClick }) {
   return (
     <div className='slider'>
       <div className='slider__arrow slider__arrow-left' onClick={goToPrevious}>
-        &#x2039;
+        {/*&#x2039;*/}
       </div>
       <div className='slider__arrow slider__arrow-right' onClick={goToNext}>
-        &#8250;
+        {/*&#8250;*/}
       </div>
       <div className='slider__block'>
         <img
@@ -71,19 +71,19 @@ function ImageSlider({ slides, onImageClick }) {
           onClick={handleImageClick}
         ></img>
         <div className='slider__middle'>
-        <img
-          className='slider__element slider__middle-image slider2'
-          src={slides[secondIndex].url}
-          alt={slides[secondIndex].title}
-          onClick={handleImageClick}
-        ></img>
-        <img
-          className='slider__element slider__middle-image slider3'
-          src={slides[thirdIndex].url}
-          alt={slides[thirdIndex].title}
-          onClick={handleImageClick}
-        ></img>
-        </div>        
+          <img
+            className='slider__element slider__middle-image slider2'
+            src={slides[secondIndex].url}
+            alt={slides[secondIndex].title}
+            onClick={handleImageClick}
+          ></img>
+          <img
+            className='slider__element slider__middle-image slider3'
+            src={slides[thirdIndex].url}
+            alt={slides[thirdIndex].title}
+            onClick={handleImageClick}
+          ></img>
+        </div>
         <img
           className='slider__element slider4'
           src={slides[fourthIndex].url}

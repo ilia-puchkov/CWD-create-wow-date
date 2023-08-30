@@ -1,4 +1,5 @@
 .how {
+  max-width: 100%;
   margin-top: 165px;
   display: flex;
   flex-direction: column;
@@ -34,6 +35,7 @@
 
 .how__text-bright {
   margin: 0;
+  font-family: 'Macherie';
   font-size: 50px;
   color: #F02ED1;
   margin-left: 10px;
@@ -46,8 +48,8 @@
   background-color: #F02ED1;
   height: 5px;
   border: none;
-  border-radius: 2px;
-  box-shadow: 0px 0px 5px 1px #F02ED1;
+  border-radius: 1px;
+  box-shadow: 0px 0px 2px 1px #F02ED1;
 }
 
 .stripe1 {
@@ -68,4 +70,101 @@
 
 .stripe5 {
   width: 460px;
+}
+
+@media screen and (max-width: 769px) {
+  .how {
+    margin-top: 190px;
+  }
+  .how__title {
+    font-size: 38px;
+    line-height: 45px;
+    margin-left: 40px;
+    margin-bottom: 35px;
+  }
+  .how__container {
+    margin-top: 60px;
+  }
+  .how__text-bright{
+    font-size: 40px;
+  }
+
+  .how__text {
+    font-size: 16px;
+  }
+
+  .how__text-extra {
+    display: none;
+  }
+  .stripe1 {
+    width: 50px;
+  }
+  
+  .stripe2 {
+    width: 150px;
+  }
+  
+  .stripe3 {
+    width: 230px;
+  }
+  
+  .stripe4 {
+    width: 325px;
+  }
+  
+  .stripe5 {
+    width: 410px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .how {
+    margin-top: 170px;
+  }
+  .how__title {
+    font-size: 35px;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .how__container {
+    margin-top: 90px;
+  }
+
+  .how__container-top {
+    margin-top: 30px;
+  }
+  .how__text-bright{
+    font-size: 40px;
+  }
+
+  .how__text {
+    font-size: 16px;
+  }
+
+  .how__text-extra {
+    display: none;
+  }
+  .how__stripe {
+    height: 2px;
+  }
+  .stripe1 {
+    width: 110px;
+  }
+  
+  .stripe2 {
+    width: 150px;
+  }
+  
+  .stripe3 {
+    width: 230px;
+  }
+  
+  .stripe4 {
+    width: 150px;
+  }
+  
+  .stripe5 {
+    width: 110px;
+  }
 }

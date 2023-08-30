@@ -2,7 +2,7 @@ function How() {
   return (
     <section className='how' id='how'>
       <h2 className="how__title">КАК ЭТО РАБОТАЕТ?</h2>
-      <div className='how__container'>
+      <div className='how__container how__container-top'>
         <hr className='how__stripe stripe1'></hr>
         <span className='how__text-bright'>1</span>
         <p className='how__text'>Вы заполняете анкету</p>
@@ -26,7 +26,7 @@ function How() {
         <hr className='how__stripe stripe5'></hr>
         <span className='how__text-bright'>5</span>
         <p className='how__text'>
-          Вы получаете WOW-эффект и уже задумываетесь о следующем мероприятии
+          Вы получаете WOW-эффект<span className="how__text how__text-extra">и уже задумываетесь о следующем мероприятии</span> 
         </p>
       </div>
     </section>

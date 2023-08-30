@@ -3,11 +3,9 @@ import aboutBackground from '../../images/about-background.png';
 function About() {
   return (
     <section className='about' id='about'>
-      <div className='about__block'>
-        <div className='about__block-button'>
           <img className='about__background' src={aboutBackground} />
           <button className='about__button' type="button">заполнить анкету</button>
-        </div>
+
         <div className='about__info'>
           <aside className='about__aside'>
             <h2 className='about__title'>О НАС</h2>
@@ -33,7 +31,7 @@ function About() {
             мероприятиях!
           </p>
         </div>
-      </div>
+
     </section>
   );
 }

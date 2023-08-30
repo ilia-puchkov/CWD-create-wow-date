@@ -31,7 +31,7 @@ function Footer() {
           </ul>
         </div>
         <div className='footer__middle'>
-          <button className='footer__button'>заполнить анкету</button>
+          <button className='footer__button'>заказать звонок</button>
           <img className='footer__logo' src={logo} />
           <p className='footer__text'>CREATE WOW DATE, 2023</p>
         </div>

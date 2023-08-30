@@ -19,6 +19,7 @@ import {
 // images
 import testSlides from '../../utils/galleryImages';
 import ImagePopup from '../ImagePopup/ImagePopup';
+import Navigation from '../Navigation/Navigation';
 
 function App() {
   // States
@@ -89,6 +90,8 @@ function App() {
         isOpen={isImagePopupOpen}
         onClose={closeAllPopups}
       />
+
+      <Navigation />
     </div>
   );
 }

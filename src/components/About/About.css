@@ -2,39 +2,26 @@
   margin-top: 100px;
   display: flex;
   flex-direction: column;
-}
-
-.about__block {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-}
-
-.about__block-button {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
   position: relative;
-  justify-items: flex-end;
-  align-items: center;
 }
 
 .about__background {
   position: absolute;
-  top: -10px;
+  top: -0;
   left: 0;
-  width: 550px;
-  height: 650px;
+  width: 50%;
+  height: 110%;
   box-shadow: inset -10px -10px 100px 10px #1b1b1b;
   filter: blur(1px);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  overflow: hidden;
 }
 
 .about__info {
   margin: 0;
   margin-bottom: 120px;
-  margin-left: 30px;
+  margin-left: 40%;
   margin-top: 70px;
   width: 60%;
   display: flex;
@@ -89,7 +76,7 @@
 .about__button {
   position: absolute;
   bottom: 10px;
-  left: 30%;
+  left: 11%;
   width: 232px;
   height: 46px;
   margin: 0;
@@ -106,4 +93,95 @@
 
 .about__button:hover {
   background-color: #2EC2F0;
+}
+
+@media screen and (max-width: 769px) {
+  .about__aside {
+    width: 65%;
+    margin-left: 90px;
+    margin-top: 40px;
+    padding-left: 20px;
+  }
+  .about__info {
+    margin-left: 320px;
+  }
+  .about__title {
+    font-size: 38px;
+  }
+  .about__subtitle {
+    font-size: 19px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+  .about__text {
+    max-width: 400px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .about__background {
+    width: 80%;
+    top: -20px;
+    left: -70px;
+  }
+  .about__button {
+    bottom: 0;
+    height: 36px;
+    line-height: 20px;
+    padding: 5px 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .about__info {
+    margin-top: 45px;
+    margin-left: 0;
+    width: 90%;
+  }
+  .about__aside {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 0;
+    border: none;
+  }
+  .about__title {
+    margin-top: 30px;
+    font-size: 35px;
+    text-align: center;
+  }
+  .about__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 370px;
+    margin: 5px auto 0;
+  }
+  .about__text {
+    max-width: 370px;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 7px auto 0;
+    text-align: center;
+  }
+
+  .about__background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .about__button {
+    bottom: 10px;
+    left: 32%;
+    width: 175px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 3px 10px;
+  }
 }

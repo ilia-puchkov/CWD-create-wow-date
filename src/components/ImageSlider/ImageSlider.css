@@ -1,6 +1,5 @@
 .slider {
-width: 90%;
-  height: 542px;
+  width: 90%;
   margin: 0 auto;
   position: relative;
 }
@@ -26,7 +25,7 @@ width: 90%;
   height: 480px;
   border-radius: 20px;
   object-fit: cover;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .slider__middle-image {
@@ -39,27 +38,30 @@ width: 90%;
 
 .slider__arrow {
   position: absolute;
-  top: 40%;
+  top: 37%;
   height: 50px;
   font-size: 100px;
   line-height: 39px;
   color: #fff;
   z-index: 1;
   cursor: pointer;
-  transition: .5s ease-in-out;
-}
-
-.slider__arrow:hover {
-  color: #2ec2f0;
-  stroke: #2ec2f0;
+  transition: 0.5s ease-in-out;
 }
 
 .slider__arrow-left {
-  left: 0px;
+  left: -10px;
+  width: 29px;
+  height: 59px;
+  background-image: url(../../images/slider-arrow-left.svg);
+  background-size: cover;
 }
 
 .slider__arrow-right {
-  right: 0px;
+  right: -10px;
+  width: 29px;
+  height: 59px;
+  background-image: url(../../images/slider-arrow-right.svg);
+  background-size: cover;
 }
 
 .slider__dots {
@@ -77,19 +79,78 @@ width: 90%;
   color: white;
 }
 
-
 .dot-active {
   color: #2ec2f0;
 }
 
 @media screen and (max-width: 1024px) {
-  .slider3 {
-    display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .slider__block {
+    gap: 9px;
+  }
+
+  .slider__middle {
+    width: 217px;
+    height: 618px;
+  }
+
+  .slider__element {
+    width: 217px;
+    height: 618px;
+  }
+
+  .slider__middle-image {
+    height: 49%;
+  }
+
+  .slider__arrow {
+    top: 40%;
+  }
+
+  .slider__arrow-left {
+    margin-top: 5px;
+    left: 25px;
+  }
+
+  .slider__arrow-right {
+    margin-top: 5px;
+    right: 30px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 500px) {
+  .slider__middle {
+    display: none;
+  }
   .slider2 {
     display: none;
+  }
+  .slider3 {
+    display: none;
+  }
+  .slider4 {
+    display: none;
+  }
+  .slider__element {
+    width: 381px;
+    height: 480px;
+  }
+  .slider__dots {
+    margin-top: 80px;
+  }
+
+  .slider__arrow {
+    top: 32%;
+  }
+  .slider__arrow-left {
+    margin-top: 0;
+    left: -10px;
+  }
+
+  .slider__arrow-right {
+    margin-top: 0;
+    right: -10px;
   }
 }
