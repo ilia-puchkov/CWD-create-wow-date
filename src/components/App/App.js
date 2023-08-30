@@ -28,6 +28,7 @@ function App() {
   const [isPopupForContactsOpen, setIsPopupForContactsOpen] = useState(false);
   const [isImagePopupOpen, setIsImagePopupOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState({});
+  const [isNavigationOpen, setIsNavigationOpen] = useState(false);
 
   // Functions
   // Open popup with questions
@@ -44,11 +45,20 @@ function App() {
     setIsImagePopupOpen(true);
   }
 
+  function handleNavigationClick() {
+    setIsNavigationOpen(true);
+  }
+
   // Close any popup
   function closeAllPopups() {
     setIsPopupForQuestionsOpen(false);
     setIsPopupForContactsOpen(false);
     setIsImagePopupOpen(false);
+  }
+
+  // Close navigation
+  function handleNavigationClose() {
+    setIsNavigationOpen(false);
   }
 
   // Обработка ответа
@@ -65,7 +75,7 @@ function App() {
 
   return (
     <div className='page'>
-      <Header onContactsClick={handleContactsClick} />
+      <Header onContactsClick={handleContactsClick} onNavigationClick={handleNavigationClick} />
       <Intro onQuestionsClick={handleQuestionClick} />
       <Formats />
       <About />
@@ -91,7 +101,7 @@ function App() {
         onClose={closeAllPopups}
       />
 
-      <Navigation />
+      <Navigation isOpen={isNavigationOpen} onClose={handleNavigationClose}/>
     </div>
   );
 }

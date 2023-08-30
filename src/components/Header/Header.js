@@ -1,7 +1,7 @@
 import headerBackground from '../../images/header-background.png';
 import headerBackgroundNoise from '../../images/header-background-noise.png';
 
-function Header({ onContactsClick }) {
+function Header({ onContactsClick, onNavigationClick}) {
   return (
     <header className='header'>
       <ul className='header__navigation'>
@@ -29,7 +29,7 @@ function Header({ onContactsClick }) {
       <button className='header__button' onClick={onContactsClick}>
         заказать звонок
       </button>
-      <button className='header__menu'></button>
+      <button className='header__menu' onClick={onNavigationClick}></button>
       <div className='header__background'>
         <img
           className='header__background-main'
