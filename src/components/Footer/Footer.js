@@ -1,7 +1,7 @@
 import logo from '../../images/cwd-logo.png';
 import footerBackground from '../../images/header-background.png';
 
-function Footer() {
+function Footer({ onContactsClick }) {
   return (
     <footer className='footer' id='contacts'>
       <h2 className='footer__title'>ОСТАЛИСЬ ВОПРОСЫ?</h2>
@@ -31,7 +31,9 @@ function Footer() {
           </ul>
         </div>
         <div className='footer__middle'>
-          <button className='footer__button'>заказать звонок</button>
+          <button className='footer__button' onClick={onContactsClick} type='button'>
+            заказать звонок
+          </button>
           <img className='footer__logo' src={logo} />
           <p className='footer__text'>CREATE WOW DATE, 2023</p>
         </div>
@@ -63,7 +65,11 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <img className='footer__background' src={footerBackground} alt='footer-background'/>
+      <img
+        className='footer__background'
+        src={footerBackground}
+        alt='footer-background'
+      />
     </footer>
   );
 }

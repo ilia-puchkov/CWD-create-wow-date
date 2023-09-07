@@ -1,10 +1,10 @@
 import aboutBackground from '../../images/about-background.png';
 
-function About() {
+function About({ onQuestionsClick }) {
   return (
     <section className='about' id='about'>
           <img className='about__background' src={aboutBackground} />
-          <button className='about__button' type="button">заполнить анкету</button>
+          <button className='about__button' type="button" onClick={onQuestionsClick}>заполнить анкету</button>
 
         <div className='about__info'>
           <aside className='about__aside'>

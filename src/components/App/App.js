@@ -78,10 +78,10 @@ function App() {
       <Header onContactsClick={handleContactsClick} onNavigationClick={handleNavigationClick} />
       <Intro onQuestionsClick={handleQuestionClick} />
       <Formats />
-      <About />
+      <About onQuestionsClick={handleQuestionClick} />
       <How />
       <Gallery slides={testSlides} onImageClick={handleImageClick} />
-      <Footer />
+      <Footer onContactsClick={handleContactsClick} />
 
       <PopupForQuestions
         isOpen={isPopupForQuestionsOpen}
