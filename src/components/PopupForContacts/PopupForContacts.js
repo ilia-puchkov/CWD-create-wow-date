@@ -10,7 +10,6 @@ function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
     onClose();
   }
 
-
   // Submit
   function handleSubmit(e) {
     e.preventDefault();

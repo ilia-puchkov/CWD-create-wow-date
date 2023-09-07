@@ -14,6 +14,7 @@ import {
   contactService,
   contactTemplate,
   publicKey,
+  questionsTemplate,
 } from '../../utils/mailUtils';
 
 // images
@@ -73,6 +74,17 @@ function App() {
     console.log(answers);
   }
 
+  function handleQuestionsSubmit(answers) {
+    emailjs
+      .send(contactService, questionsTemplate, answers, publicKey)
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => console.log(err));
+
+    console.log(answers);
+  }
+
   return (
     <div className='page'>
       <Header onContactsClick={handleContactsClick} onNavigationClick={handleNavigationClick} />
@@ -86,7 +98,7 @@ function App() {
       <PopupForQuestions
         isOpen={isPopupForQuestionsOpen}
         onClose={closeAllPopups}
-        onAddAnswers={handleAnswersSubmit}
+        onAddAnswers={handleQuestionsSubmit}
       />
 
       <PopupForContacts
