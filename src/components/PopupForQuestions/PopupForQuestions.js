@@ -24,14 +24,14 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
     <PopupWithForm
       name='questions'
       title='Новая анкета'
-      buttonText='Отправить'
+      buttonText='Отправить анкету'
       isOpen={isOpen}
       onClose={handleClose}
       onSubmit={handleSubmit}
       isDisabled={!isValid}
     >
       <div className='form__input-block'>
-        <p className='form__question'>1. По какому поводу мероприятие?</p>
+        <label className='form__question'>1. По какому поводу мероприятие?</label>
         <input
           className='form__input form__input_el_question1'
           type='text'
@@ -49,7 +49,7 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
         </span>
       </div>
       <div className='form__input-block'>
-      <p className='form__question'>1. По какому поводу мероприятие?</p>
+      <label className='form__question'>2. Желаемая дата и время мероприятия</label>
         <input
           className='form__input form__input_el_question2'
           type='text'
@@ -67,7 +67,7 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
         </span>
       </div>
       <div className='form__input-block'>
-      <p className='form__question'>1. По какому поводу мероприятие?</p>
+      <label className='form__question'>3. Бюджетные рамки</label>
         <input
           className='form__input form__input_el_question3'
           type='text'
@@ -85,7 +85,7 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
         </span>
       </div>
       <div className='form__input-block'>
-      <p className='form__question'>1. По какому поводу мероприятие?</p>
+      <label className='form__question'>4. Какую атмосферу праздника вы бы хотели создать?</label>
         <input
           className='form__input form__input_el_question4'
           type='text'
@@ -103,7 +103,7 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
         </span>
       </div>
       <div className='form__input-block'>
-      <p className='form__question'>1. По какому поводу мероприятие?</p>
+      <label className='form__question'>5. Увлечения/хобби и то, что очень любит человек, для которого устраиваем мероприятие</label>
         <input
           className='form__input form__input_el_question5'
           type='text'
@@ -121,7 +121,7 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
         </span>
       </div>
       <div className='form__input-block'>
-      <p className='form__question'>1. По какому поводу мероприятие?</p>
+      <label className='form__question'>6. Что-то важное, что по вашему мнению нам нужно знать (аллергия, фобии, личные травмы, физические ограничения...)</label>
         <input
           className='form__input form__input_el_question6'
           type='text'
