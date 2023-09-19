@@ -1,9 +1,9 @@
 import PopupWithForm from '../PopupWithForm/PopupWithForm';
 import useFormValidation from '../../utils/formValidation';
 
-
 function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
-  const { values, errors, handleChange, isValid, resetForm } = useFormValidation();
+  const { values, errors, handleChange, isValid, resetForm } =
+    useFormValidation();
 
   function handleClose() {
     resetForm();
@@ -38,11 +38,12 @@ function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
           name='name'
           minLength='2'
           maxLength='30'
+          placeholder='ИМЯ'
           value={values.name || ''}
           onChange={handleChange}
           required
         />
-        <label className='form__input-holder'>Ваше имя</label>
+        {/* <label className='form__input-holder'>ИМЯ</label> */}
         <span className='form__input-error name-input-error form__input-error_visible'>
           {errors.name}
         </span>
@@ -52,15 +53,22 @@ function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
           className='form__input form__input_el_place-link'
           type='tel'
           id='phone-input'
+          placeholder='ТЕЛЕФОН'
           name='phone'
           value={values.phone || ''}
           onChange={handleChange}
           required
         />
-        <label className='form__input-holder'>Ваш телефон</label>
+        {/* <label className='form__input-holder'>ТЕЛЕФОН</label> */}
         <span className='form__input-error phone-input-error form__input-error_visible'>
           {errors.phone}
         </span>
+      </div>
+      <div className='form__checkbox-block'>
+        {/* <button type='checkbox' className='form__checkbox' required></button> */}
+        <label className='form__checkbox-text'>
+          отправляя свои данные вы соглашаетесь с политикой конфиденциальности
+        </label>
       </div>
     </PopupWithForm>
   );

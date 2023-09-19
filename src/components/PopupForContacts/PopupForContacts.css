@@ -1,7 +1,7 @@
 .form__input-holder {
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 150px;
   color: #000;
   transition: .3s ease-in;
   background: transparent;
@@ -15,4 +15,21 @@
 .form__input:focus ~ label,
 .form__input:valid ~ label {
   top: -19px;
+}
+
+.form__checkbox-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.form__checkbox {
+  width: 12px;
+  height: 10px;
+}
+
+.form__checkbox-text {
+  font-weight: 300;
+  size: 10px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, .5);
 }

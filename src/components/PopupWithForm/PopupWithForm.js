@@ -1,3 +1,5 @@
+import popupBackground from '../../images/about-background.png';
+
 function PopupWithForm({
   name,
   title,
@@ -11,6 +13,7 @@ function PopupWithForm({
   return (
     <div className={`popup popup_type_${name} ${isOpen ? 'popup_opened' : ''}`}>
       <div className='popup__container'>
+        <img className='popup__background' src={popupBackground} />
         <h2 className='popup__header'>{title}</h2>
         <form
           className='form popup__form'
