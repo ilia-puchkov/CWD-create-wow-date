@@ -88,7 +88,7 @@
   border: none;
   z-index: 2;
   background: none;
-  background-image: url(../../images/menu-icon.svg);
+  background-image: url(../../images/menu-icon.png);
   background-size: cover;
   stroke: #F02ED1;
 }
