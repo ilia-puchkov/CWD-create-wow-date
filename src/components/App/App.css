@@ -15,7 +15,7 @@
 .page {
   max-width: 1200px;
   text-align: center;
-  background-image: url(../../images/235-2354030_24-jun-2015-noise-texture-png-transparent.png);
+  background-image: url(../../images/page-background.png);
 }
 
 @media screen and (max-width: 500px) {
