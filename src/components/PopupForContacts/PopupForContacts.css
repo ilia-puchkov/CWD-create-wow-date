@@ -12,10 +12,10 @@
   text-align: left;
 }
 
-.form__input:focus ~ label,
+/* .form__input:focus ~ label,
 .form__input:valid ~ label {
   top: -19px;
-}
+} */
 
 .form__checkbox-block {
   display: flex;

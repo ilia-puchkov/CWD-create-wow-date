@@ -9,12 +9,14 @@ function PopupWithForm({
   isDisabled,
   isOpen,
   children,
+  isButtonShown,
 }) {
   return (
     <div className={`popup popup_type_${name} ${isOpen ? 'popup_opened' : ''}`}>
       <div className='popup__container'>
-        <img className='popup__background' src={popupBackground} />
+        
         <h2 className='popup__header'>{title}</h2>
+        
         <form
           className='form popup__form'
           name={name}
@@ -22,16 +24,17 @@ function PopupWithForm({
         >
           {children}
           <button
-          className={`form__save-button ${isDisabled ? 'form__save-button_disabled' : ''}`}
+          className={`form__save-button ${isDisabled ? 'form__save-button_disabled' : ''} ${isButtonShown ? 'popup__save-button-visible' : ''}`}
           disabled={isDisabled ? true : false} type='submit'>
             {buttonText}
           </button>
         </form>
         <button
-          className='popup__close-button'
+          className={`popup__close-button `}
           type='button'
           onClick={onClose}
         ></button>
+        <img className='popup__background' src={popupBackground} />
       </div>
     </div>
   );

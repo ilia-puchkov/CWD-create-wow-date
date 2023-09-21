@@ -29,12 +29,13 @@ function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
       onClose={handleClose}
       onSubmit={handleSubmit}
       isDisabled={!isValid}
+      isButtonShown={true}
     >
       <div className='form__input-block'>
         <input
           className='form__input form__input_el_place'
           type='text'
-          id='name-input'
+          id='contacts-name-input'
           name='name'
           minLength='2'
           maxLength='30'
@@ -52,7 +53,7 @@ function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
         <input
           className='form__input form__input_el_place-link'
           type='tel'
-          id='phone-input'
+          id='contacts-phone-input'
           placeholder='ТЕЛЕФОН'
           name='phone'
           value={values.phone || ''}
