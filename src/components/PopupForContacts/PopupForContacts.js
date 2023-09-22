@@ -23,8 +23,8 @@ function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
   return (
     <PopupWithForm
       name='add-contacts'
-      title='Заказать звонок'
-      buttonText='Заказать'
+      title='ЗАКАЗАТЬ ЗВОНОК'
+      buttonText='ОТПРАВИТЬ'
       isOpen={isOpen}
       onClose={handleClose}
       onSubmit={handleSubmit}

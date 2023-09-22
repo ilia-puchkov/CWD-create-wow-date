@@ -169,3 +169,32 @@
     width: 110px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .how__text {
+    font-size: 12px;
+    max-width: 180px;
+  }
+  .stripe1 {
+    width: 65px;
+  }
+  
+  .stripe2 {
+    width: 100px;
+  }
+  
+  .stripe3 {
+    width: 130px;
+  }
+  
+  .stripe4 {
+    width: 100px;
+  }
+  
+  .stripe5 {
+    width: 65px;
+  }
+  .how__text-bright{
+    font-size: 35px;
+  }
+}

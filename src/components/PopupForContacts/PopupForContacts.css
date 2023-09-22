@@ -29,7 +29,14 @@
 
 .form__checkbox-text {
   font-weight: 300;
-  size: 10px;
+  font-size: 10px;
   line-height: 14px;
   color: rgba(255, 255, 255, .5);
+}
+
+@media screen and (max-width: 750px) {
+  .form__checkbox-text  {
+    max-width: 180px;
+    margin-bottom: 0px;
+  }
 }

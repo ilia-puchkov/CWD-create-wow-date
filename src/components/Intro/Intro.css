@@ -121,11 +121,9 @@
   .intro__image {
     display: none;
   }
-
   .intro {
     margin-top: 85px;
   }
-
   .intro__logo {
     width: 135px;
     height: 104px;
@@ -154,5 +152,33 @@
     padding: 5px 10px;
     margin-top: 100px;
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .intro__logo {
+    width: 105px;
+    height: 80px;
+    top: -170px;
+    left: 15px;
+  }
+  .intro__header {
+    font-size: 24px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 80px;
+  }
+  .intro__text {
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .intro__button {
+    align-self: center;
+    font-size: 12px;
+    line-height: 12px;
+    width: 140px;
+    height: 22px;
+    padding: 4px 10px;
+    margin-top: 70px;
   }
 }

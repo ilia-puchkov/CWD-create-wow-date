@@ -92,3 +92,30 @@
     line-height: 14px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .formats {
+    margin-top: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .format {
+    margin-top: 10px;
+    height: auto;
+    margin-top: 80px;
+  }
+  .format__title {
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .format__text {
+    width: 145px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .format__image {
+    width: 90px;
+    height: 80px;
+  }
+}

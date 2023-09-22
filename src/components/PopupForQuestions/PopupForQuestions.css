@@ -3,11 +3,11 @@
   max-width: 358px;
   padding: 10px;
   border: none;
-  border-bottom: 2px solid rgba(255, 255, 255, .5);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   background: none;
   text-align: center;
 }
@@ -34,7 +34,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #F00;
+  color: #f00;
   text-align: left;
 }
 
@@ -63,8 +63,9 @@ input:-internal-autofill-selected {
 
 .form__question {
   color: #fff;
+  font-size: 18px;
+  line-height: 22px;
 }
-
 
 .form__question-visible {
   display: block;
@@ -83,10 +84,26 @@ input:-internal-autofill-selected {
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  color: #000;
-  box-shadow: 0px 0px 5px .5px #fff, inset 0px 0px 4px .5px #fff;
-  background-color: #fff;
-  transition: .5s ease-in-out;
+  color: #fff;
+  box-shadow: 0px 0px 5px 0.5px #fff, inset 0px 0px 4px 0.5px #fff;
+  background-color: transparent;
+  transition: 0.5s ease-in-out;
   align-self: center;
 }
 
+@media screen and (max-width: 750px) {
+  .form__input-block {
+    max-width: 180px;
+    margin-bottom: 10px;
+  }
+  .questions__button{
+    width: 121px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .form__question {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}

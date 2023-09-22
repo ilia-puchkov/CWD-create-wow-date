@@ -154,3 +154,14 @@
     right: -10px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .slider__element {
+    width: 258px;
+    height: 389px;
+  }
+  .slider__arrow-right {
+    margin-top: 0;
+    right: -5px;
+  }
+}

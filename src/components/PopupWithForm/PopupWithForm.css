@@ -119,3 +119,21 @@
   color: #FFF;
   background-color: transparent;
 }
+
+@media screen and (max-width: 750px) {
+  .popup__container {
+    width: 360px;
+  }
+  .popup__header {
+    margin-top: 70px;
+    margin-bottom: 65px;
+    font-size: 25px;
+    line-height: 29px;
+  }
+  .form__save-button {
+    width: 121px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

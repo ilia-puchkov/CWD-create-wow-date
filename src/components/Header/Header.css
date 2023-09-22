@@ -89,7 +89,7 @@
   z-index: 2;
   background: none;
   background-image: url(../../images/menu-icon.png);
-  background-size: cover;
+  background-size: contain;
   stroke: #F02ED1;
 }
 
@@ -124,5 +124,22 @@
   .header__menu {
     width: 27px;
   height: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    padding: 45px 15px;
+    gap: 25px;
+  }
+  .header__button {
+    width: 125px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .header__menu {
+    width: 21px;
+    height: 18px;
   }
 }
