@@ -57,11 +57,6 @@ function Footer({ onContactsClick }) {
                 TELEGRAM
               </a>
             </li>
-            <li className='footer__contacts-link'>
-              <a className='footer__contacts-link' href='#'>
-                INSTAGRAM
-              </a>
-            </li>
           </ul>
         </div>
       </div>
