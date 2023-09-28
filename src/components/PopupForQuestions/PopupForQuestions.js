@@ -91,7 +91,6 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
             // maxLength='30'
             value={values.question2 || ''}
             onChange={handleChange}
-            required
           />
           <span className='form__input-error question-input-error form__input-error_visible'>
             {errors.question2}

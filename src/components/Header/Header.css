@@ -86,13 +86,13 @@
 .header__menu {
   display: none;
   width: 33px;
-  height: 33px;
+  height: 30px;
   padding: 0;
   border: none;
   z-index: 2;
   background: none;
   background-image: url(../../images/menu-icon.png);
-  background-size: contain;
+  background-size: cover;
   stroke: #F02ED1;
 }
 
