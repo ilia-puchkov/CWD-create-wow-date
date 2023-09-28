@@ -27,10 +27,6 @@
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 74%);
 }
 
-/* .header__background-main-effect {
-  filter: brightness(.8);
-} */
-
 .header__background-noise {
   position: inherit;
   width: 100%;
@@ -148,5 +144,8 @@
   .header__menu {
     width: 21px;
     height: 18px;
+  }
+  .header__background {
+    height: 600px;
   }
 }
