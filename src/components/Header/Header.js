@@ -1,4 +1,4 @@
-import headerBackground from '../../images/header-background.png';
+import headerBackground from '../../images/main-background.png';
 import headerBackgroundNoise from '../../images/header-background-noise.png';
 
 function Header({ onContactsClick, onNavigationClick}) {
@@ -31,16 +31,7 @@ function Header({ onContactsClick, onNavigationClick}) {
       </button>
       <button className='header__menu' onClick={onNavigationClick}></button>
       <div className='header__background'>
-        <img
-          className='header__background-main'
-          src={headerBackground}
-          alt='header-background'
-        />
-        <img
-          className='header__background-noise'
-          src={headerBackgroundNoise}
-          alt='header-background'
-        />
+        <img src={headerBackground} className='header__background-main header__background-main-effect'/>
       </div>
     </header>
   );

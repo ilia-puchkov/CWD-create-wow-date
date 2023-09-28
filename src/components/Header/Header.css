@@ -15,14 +15,21 @@
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index: 1;
+  height: 700px;
+  z-index: -1;
 }
 
 .header__background-main {
   width: 100%;
-  opacity: .6;
-  filter: blur(2px);
+  height: 100%;
+  opacity: .4;
+  filter: blur(3px) brightness(.8);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 74%);
 }
+
+/* .header__background-main-effect {
+  filter: brightness(.8);
+} */
 
 .header__background-noise {
   position: inherit;
