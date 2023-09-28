@@ -65,12 +65,6 @@ function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
           {errors.phone}
         </span>
       </div>
-      <div className='form__checkbox-block'>
-        {/* <button type='checkbox' className='form__checkbox' required></button> */}
-        <label className='form__checkbox-text'>
-          отправляя свои данные вы соглашаетесь с политикой конфиденциальности
-        </label>
-      </div>
     </PopupWithForm>
   );
 }
