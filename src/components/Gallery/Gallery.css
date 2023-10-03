@@ -28,7 +28,7 @@
   color: #fff;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 960px) {
   .gallery {
     margin-top: 180px;
     padding-bottom: 55px;
@@ -43,9 +43,9 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 690px) {
   .gallery {
-    margin-top: 30px;
+    margin-top: 70px;
     padding-bottom: 35px;
   }
   .gallery__title {

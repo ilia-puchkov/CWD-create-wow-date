@@ -1,5 +1,3 @@
-import testImage from '../../images/test.jpg';
-
 import ImageSlider from '../ImageSlider/ImagesSlider';
 
 function Gallery({slides, onImageClick}) {

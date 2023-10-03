@@ -1,5 +1,4 @@
 import headerBackground from '../../images/main-background.png';
-import headerBackgroundNoise from '../../images/header-background-noise.png';
 
 function Header({ onContactsClick, onNavigationClick}) {
   return (

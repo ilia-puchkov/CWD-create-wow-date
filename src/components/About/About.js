@@ -4,8 +4,6 @@ function About({ onQuestionsClick }) {
   return (
     <section className='about' id='about'>
           <img className='about__background' src={aboutBackground} />
-          <button className='about__button' type="button" onClick={onQuestionsClick}>заполнить анкету</button>
-
         <div className='about__info'>
           <aside className='about__aside'>
             <h2 className='about__title'>О НАС</h2>
@@ -30,6 +28,7 @@ function About({ onQuestionsClick }) {
             наизусть знать истории о ЛЕ-ГЕН-...подождите...подождите..-ДАР-НЫХ
             мероприятиях!
           </p>
+          <button className='about__button' type="button" onClick={onQuestionsClick}>заполнить анкету</button>
         </div>
 
     </section>

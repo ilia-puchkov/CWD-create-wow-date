@@ -17,9 +17,9 @@
   text-align: center;
   background-image: url(../../images/page-background.png);
 }
-
+/* 
 @media screen and (max-width: 500px) {
   .page {
     max-width: 480px;
   }
-}
+} */

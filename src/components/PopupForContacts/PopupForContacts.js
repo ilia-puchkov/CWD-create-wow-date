@@ -30,6 +30,7 @@ function PopupForContacts({ isOpen, onClose, onAddAnswers }) {
       onSubmit={handleSubmit}
       isDisabled={!isValid}
       isButtonShown={true}
+      isHeaderShown={true}
     >
       <div className='form__input-block'>
         <input

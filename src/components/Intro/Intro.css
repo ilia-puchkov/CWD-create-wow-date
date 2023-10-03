@@ -19,6 +19,7 @@
 .intro__block {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .intro__block-info {
@@ -78,7 +79,7 @@
   background-color: #f02ed1;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 960px) {
   .intro {
     align-items: start;
   }
@@ -86,7 +87,10 @@
   .intro__image {
     display: none;
   }
-
+  .intro__block {
+    align-items: center;
+    justify-content: center;
+  }
   .intro__block-info {
     margin-left: 40px;
     max-width: 479px;
@@ -114,10 +118,11 @@
     height: 36px;
     padding: 5px 20px;
     font-size: 20px;
+    line-height: 20px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 690px) {
   .intro__image {
     display: none;
   }
@@ -146,7 +151,8 @@
   }
   .intro__button {
     align-self: center;
-    font-size: 16px;
+    font-size: 12px;
+    line-height: 12px;
     width: 174px;
     height: 25px;
     padding: 5px 10px;
@@ -155,7 +161,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 460px) {
   .intro__logo {
     width: 105px;
     height: 80px;
@@ -174,8 +180,6 @@
   }
   .intro__button {
     align-self: center;
-    font-size: 12px;
-    line-height: 12px;
     width: 140px;
     height: 22px;
     padding: 4px 10px;

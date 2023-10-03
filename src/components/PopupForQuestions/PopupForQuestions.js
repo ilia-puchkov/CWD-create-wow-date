@@ -32,13 +32,16 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
   return (
     <PopupWithForm
       name='questions'
-      title='Новая анкета'
+      title='Заполнить анкету'
       buttonText='Отправить анкету'
       isOpen={isOpen}
       onClose={handleClose}
       onSubmit={handleSubmit}
       isDisabled={!isValid}
-      isButtonShown={currentQuestion === 7 ? true : false}
+      isButtonShown={currentQuestion === 8 ? true : false}
+      isHeaderShown={
+        currentQuestion === 1 || currentQuestion === 8 ? true : false
+      }
     >
       <div
         className={`form__question-block ${
@@ -47,6 +50,25 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
       >
         <div className='form__input-block'>
           <label className='form__question'>
+            Узнаем ваши предпочтения и организуем уникальное мероприятие!
+          </label>
+        </div>
+        <button
+          className='questions__button'
+          onClick={newQuestion}
+          type='button'
+        >
+          Далее
+        </button>
+      </div>
+
+      <div
+        className={`form__question-block ${
+          currentQuestion === 2 ? 'form__question-visible' : ''
+        }`}
+      >
+        <div className='form__input-block block-question'>
+          <label className='form__question form__question-big'>
             1. По какому поводу мероприятие?
           </label>
           <input
@@ -74,11 +96,11 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
       </div>
       <div
         className={`form__question-block ${
-          currentQuestion === 2 ? 'form__question-visible' : ''
+          currentQuestion === 3 ? 'form__question-visible' : ''
         }`}
       >
-        <div className='form__input-block'>
-          <label className='form__question'>
+        <div className='form__input-block block-question'>
+          <label className='form__question form__question-big'>
             2. Желаемая дата и время мероприятия
           </label>
           <input
@@ -107,11 +129,13 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
 
       <div
         className={`form__question-block ${
-          currentQuestion === 3 ? 'form__question-visible' : ''
+          currentQuestion === 4 ? 'form__question-visible' : ''
         }`}
       >
-        <div className='form__input-block'>
-          <label className='form__question'>3. Бюджетные рамки</label>
+        <div className='form__input-block block-question'>
+          <label className='form__question form__question-big'>
+            3. Бюджетные рамки
+          </label>
           <input
             className='form__input form__input_el_question3'
             type='text'
@@ -138,11 +162,11 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
 
       <div
         className={`form__question-block ${
-          currentQuestion === 4 ? 'form__question-visible' : ''
+          currentQuestion === 5 ? 'form__question-visible' : ''
         }`}
       >
-        <div className='form__input-block'>
-          <label className='form__question'>
+        <div className='form__input-block block-question'>
+          <label className='form__question form__question-big'>
             4. Какую атмосферу праздника вы бы хотели создать?
           </label>
           <input
@@ -171,11 +195,11 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
 
       <div
         className={`form__question-block ${
-          currentQuestion === 5 ? 'form__question-visible' : ''
+          currentQuestion === 6 ? 'form__question-visible' : ''
         }`}
       >
-        <div className='form__input-block'>
-          <label className='form__question'>
+        <div className='form__input-block block-question'>
+          <label className='form__question form__question-big'>
             5. Увлечения/хобби и то, что очень любит человек, для которого
             устраиваем мероприятие
           </label>
@@ -205,13 +229,16 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
 
       <div
         className={`form__question-block ${
-          currentQuestion === 6 ? 'form__question-visible' : ''
+          currentQuestion === 7 ? 'form__question-visible' : ''
         }`}
       >
-        <div className='form__input-block'>
-          <label className='form__question'>
-            6. Что-то важное, что по вашему мнению нам нужно знать (аллергия,
-            фобии, личные травмы, физические ограничения...)
+        <div className='form__input-block block-question'>
+          <label className='form__question form__question-big'>
+            6. Что-то важное, что по вашему мнению нам нужно знать
+            <br />
+            <span className='form__question-extra'>
+              (аллергия, фобии, личные травмы, физические ограничения...)
+            </span>
           </label>
           <input
             className='form__input form__input_el_question6'
@@ -239,7 +266,7 @@ function PopupForQuestions({ isOpen, onClose, onAddAnswers }) {
 
       <div
         className={`form__question-block ${
-          currentQuestion === 7 ? 'form__question-visible' : ''
+          currentQuestion === 8 ? 'form__question-visible' : ''
         }`}
       >
         <div className='form__input-block'>

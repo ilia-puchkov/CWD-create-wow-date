@@ -10,11 +10,14 @@ function PopupWithForm({
   isOpen,
   children,
   isButtonShown,
+  isHeaderShown,
 }) {
   return (
     <div className={`popup popup_type_${name} ${isOpen ? 'popup_opened' : ''}`}>
       <div className='popup__container'>
-        <h2 className='popup__header'>{title}</h2>
+        <h2 className={`popup__header ${isHeaderShown ? 'header_shown' : ''}`}>
+          {title}
+        </h2>
         <form className='form popup__form' name={name} onSubmit={onSubmit}>
           {children}
           <label className='form__checkbox-text'>

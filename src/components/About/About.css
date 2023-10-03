@@ -36,9 +36,9 @@
   padding-left: 40px;
   margin-left: 70px;
   float: right;
-  border-left: 2px solid #2EC2F0;
-  box-shadow: inset 5px 0 5px -5px #2EC2F0;
-  color: #2EC2F0;
+  border-left: 2px solid #2ec2f0;
+  box-shadow: inset 5px 0 5px -5px #2ec2f0;
+  color: #2ec2f0;
 }
 
 .about__title {
@@ -46,9 +46,9 @@
   margin-top: 5px;
   font-size: 45px;
   line-height: 52px;
-  color: #2EC2F0;
+  color: #2ec2f0;
   text-align: left;
-  font-family:'Macherie';
+  font-family: 'Macherie';
 }
 
 .about__subtitle {
@@ -59,7 +59,7 @@
   font-weight: 600;
   color: #fff;
   text-align: left;
-  font-family:'Macherie';
+  font-family: 'Macherie';
 }
 
 .about__text {
@@ -80,31 +80,31 @@
   width: 232px;
   height: 46px;
   margin: 0;
-  border: 2px solid #2EC2F0;
+  border: 2px solid #2ec2f0;
   background: transparent;
   font-size: 20px;
   line-height: 24px;
   color: #fff;
   padding: 8px 20px 8px;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px .5px #2EC2F0, inset 0px 0px 4px .5px #2EC2F0;
-  transition: .5s ease-in-out;
+  box-shadow: 0px 0px 5px 0.5px #2ec2f0, inset 0px 0px 4px 0.5px #2ec2f0;
+  transition: 0.5s ease-in-out;
 }
 
 .about__button:hover {
-  background-color: #2EC2F0;
+  background-color: #2ec2f0;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 960px) {
   .about__aside {
     width: 65%;
     margin-left: 90px;
     margin-top: 40px;
     padding-left: 20px;
   }
-  .about__info {
+  /* .about__info {
     margin-left: 320px;
-  }
+  } */
   .about__title {
     font-size: 38px;
   }
@@ -131,7 +131,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 690px) {
   .about {
     margin-top: 50px;
     justify-content: center;
@@ -141,7 +141,7 @@
     margin-top: 45px;
     margin-left: 0;
     width: 90%;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     padding: 0 10px 100px 10px;
     margin-bottom: 50px;
@@ -190,11 +190,14 @@
   }
 }
 
-@media screen and (max-width: 450px) {
-.about {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+@media screen and (max-width: 460px) {
+  .about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about__info {
+    padding-bottom: 20px;
+  }
   .about__subtitle {
     font-size: 14px;
     line-height: 16px;
@@ -203,15 +206,15 @@
     font-size: 12px;
     line-height: 14px;
   }
-
   .about__button {
-    bottom: 80px;
-    left: 28%;
+    position: static;
     width: 145px;
     height: 20px;
     font-size: 10px;
     line-height: 10px;
     padding: 3px 10px;
     z-index: 10;
+    align-self: center;
+    margin-top: 80px;
   }
 }
