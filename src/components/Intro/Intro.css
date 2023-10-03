@@ -19,7 +19,6 @@
 .intro__block {
   display: flex;
   flex-direction: row;
-  width: 100%;
 }
 
 .intro__block-info {
@@ -128,6 +127,9 @@
   }
   .intro {
     margin-top: 85px;
+  }
+  .intro__block {
+    width: 100%;
   }
   .intro__logo {
     width: 135px;
