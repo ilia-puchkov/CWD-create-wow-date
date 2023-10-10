@@ -8,8 +8,6 @@
   justify-content: center;
   align-items: center;
   font-family:  'Montserrat', 'Macherie', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background-color: #1B1B1B;
 }
 

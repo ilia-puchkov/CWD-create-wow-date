@@ -16,10 +16,10 @@
   max-width: 1200px;
   text-align: center;
   background-image: url(../../images/page-background.png);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
-/* 
-@media screen and (max-width: 500px) {
-  .page {
-    max-width: 480px;
-  }
-} */
