@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CWD-create-wow-date/static/css/main.e758ceab.css",
+    "main.css": "/CWD-create-wow-date/static/css/main.244b4c7b.css",
     "main.js": "/CWD-create-wow-date/static/js/main.0c5ed0c9.js",
     "static/js/787.6d2af0ba.chunk.js": "/CWD-create-wow-date/static/js/787.6d2af0ba.chunk.js",
     "static/media/page-background.png": "/CWD-create-wow-date/static/media/page-background.503a3c10c4bb989e025c.png",
@@ -27,12 +27,12 @@
     "static/media/slider-arrow-right.svg": "/CWD-create-wow-date/static/media/slider-arrow-right.2bb93fa699bf0054bef3.svg",
     "index.html": "/CWD-create-wow-date/index.html",
     "static/media/menu-icon.svg": "/CWD-create-wow-date/static/media/menu-icon.b71b3a967cc653a5be4f.svg",
-    "main.e758ceab.css.map": "/CWD-create-wow-date/static/css/main.e758ceab.css.map",
+    "main.244b4c7b.css.map": "/CWD-create-wow-date/static/css/main.244b4c7b.css.map",
     "main.0c5ed0c9.js.map": "/CWD-create-wow-date/static/js/main.0c5ed0c9.js.map",
     "787.6d2af0ba.chunk.js.map": "/CWD-create-wow-date/static/js/787.6d2af0ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e758ceab.css",
+    "static/css/main.244b4c7b.css",
     "static/js/main.0c5ed0c9.js"
   ]
 }
