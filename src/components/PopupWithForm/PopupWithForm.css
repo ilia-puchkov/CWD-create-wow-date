@@ -61,18 +61,24 @@
 
 .popup__close-button {
   display: block;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  margin: auto 0;
-  width: 18px;
-  height: 18px;
+  position: relative;
+  margin: auto 0 auto;
+  padding: 0;
+  float: right;
+  width: 20px;
+  height: 20px;
   background-image: url(../../images/Close-Icon.svg);
   background-color: transparent;
   background-size: cover;
   border: 0;
   cursor: pointer;
   z-index: 10;
+}
+
+button {
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .popup__background {
@@ -129,7 +135,7 @@
 
 @media screen and (max-width: 960px) {
   .popup__container {
-    width: 360px;
+    width: 450px;
   }
   .popup__header {
     font-size: 25px;
@@ -140,5 +146,11 @@
     height: 24px;
     font-size: 12px;
     line-height: 14px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .popup__container {
+    width: 340px;
   }
 }

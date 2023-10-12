@@ -119,10 +119,10 @@
     gap: 30px;
   }
   .header__button {
-    width: 150px;
+    width: 140px;
     height: 25px;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 12px;
+    line-height: 12px;
   }
   .header__menu {
     width: 27px;
@@ -138,8 +138,6 @@
   .header__button {
     width: 130px;
     height: 20px;
-    font-size: 12px;
-    line-height: 12px;
   }
   .header__menu {
     width: 21px;

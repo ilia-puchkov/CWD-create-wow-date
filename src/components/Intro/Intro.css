@@ -55,8 +55,8 @@
 .intro__button {
   margin-top: 45px;
   width: 232px;
-  height: 46px;
-  padding: 8px 20px 8px;
+  height: 35px;
+  /* padding: 8px 20px 8px; */
   border: 2px solid #f02ed1;
   border-radius: 5px;
   background-color: transparent;
@@ -115,7 +115,7 @@
     margin-top: 70px;
     margin-left: 5px;
     height: 36px;
-    padding: 5px 20px;
+    /* padding: 5px 20px; */
     font-size: 20px;
     line-height: 20px;
   }
@@ -157,7 +157,7 @@
     line-height: 12px;
     width: 174px;
     height: 25px;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     margin-top: 100px;
     margin-left: 0;
   }
@@ -184,7 +184,7 @@
     align-self: center;
     width: 140px;
     height: 22px;
-    padding: 4px 10px;
+    /* padding: 4px 10px; */
     margin-top: 70px;
   }
 }

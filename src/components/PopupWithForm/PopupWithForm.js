@@ -15,6 +15,11 @@ function PopupWithForm({
   return (
     <div className={`popup popup_type_${name} ${isOpen ? 'popup_opened' : ''}`}>
       <div className='popup__container'>
+        <button
+          className={`popup__close-button`}
+          type='button'
+          onClick={onClose}
+        ></button>
         <h2 className={`popup__header ${isHeaderShown ? 'header_shown' : ''}`}>
           {title}
         </h2>
@@ -33,11 +38,7 @@ function PopupWithForm({
             {buttonText}
           </button>
         </form>
-        <button
-          className={`popup__close-button `}
-          type='button'
-          onClick={onClose}
-        ></button>
+
         <img className='popup__background' src={popupBackground} />
       </div>
     </div>
