@@ -10,12 +10,12 @@ import Footer from '../Footer/Footer';
 import PopupForQuestions from '../PopupForQuestions/PopupForQuestions';
 import PopupForContacts from '../PopupForContacts/PopupForContacts';
 import emailjs from 'emailjs-com';
-import {
-  contactService,
-  contactTemplate,
-  publicKey,
-  questionsTemplate,
-} from '../../utils/mailUtils';
+// import {
+//   contactService,
+//   contactTemplate,
+//   publicKey,
+//   questionsTemplate,
+// } from '../../utils/mailUtils';
 
 // images
 import testSlides from '../../utils/galleryImages';
@@ -62,17 +62,17 @@ function App() {
     setIsNavigationOpen(false);
   }
 
-  // Обработка ответа
-  function handleAnswersSubmit(answers) {
-    emailjs
-      .send(contactService, contactTemplate, answers, publicKey)
-      .then((res) => {
-        console.log(res);
-      })
-      .catch((err) => console.log(err));
+  // // Обработка ответа
+  // function handleAnswersSubmit(answers) {
+  //   emailjs
+  //     .send(contactService, contactTemplate, answers, publicKey)
+  //     .then((res) => {
+  //       console.log(res);
+  //     })
+  //     .catch((err) => console.log(err));
 
-    console.log(answers);
-  }
+  //   console.log(answers);
+  // }
 
   function handleQuestionsSubmit(answers) {
     emailjs
@@ -98,13 +98,13 @@ function App() {
       <PopupForQuestions
         isOpen={isPopupForQuestionsOpen}
         onClose={closeAllPopups}
-        onAddAnswers={handleQuestionsSubmit}
+        // onAddAnswers={handleQuestionsSubmit}
       />
 
       <PopupForContacts
         isOpen={isPopupForContactsOpen}
         onClose={closeAllPopups}
-        onAddAnswers={handleAnswersSubmit}
+        // onAddAnswers={handleAnswersSubmit}
       />
 
       <ImagePopup
